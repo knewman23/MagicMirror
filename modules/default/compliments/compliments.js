@@ -15,7 +15,7 @@ Module.register("compliments", {
 				"At Your Service, Sir"
 			],
 			morning: [
-				"Good Morning, Sir"
+				"Good Morning, Krys"
 			],
 			afternoon: [
 				"Good Afternoon, Sir"

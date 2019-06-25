@@ -1,5 +1,6 @@
 /* Font / Universal Properties */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://allfont.net/allfont.css?fonts=agency-fb);
 
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
