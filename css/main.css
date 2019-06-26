@@ -318,9 +318,6 @@ sup {
   width: 100%;
   height: 100%;
   animation: 10s infinite linear reactor-anim;
-  -webkit-animation: 10s infinite linear reactor-anim;
-  -moz-animation: 10s infinite linear reactor-anim;
-  -o-animation: 10s infinite linear reactor-anim;
 }
 .coil {
   position: absolute;
@@ -334,63 +331,33 @@ sup {
 }
 .coil-1 {
   transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
 }
 .coil-2 {
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
 }
 .coil-3 {
   transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
 }
 .coil-4 {
   transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
 }
 .coil-5 {
   transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
 }
 .coil-6 {
   transform: rotate(225deg);
-  -webkit-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  -o-transform: rotate(225deg);
 }
 .coil-7 {
   transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
 }
 .coil-8 {
   transform: rotate(315deg);
-  -webkit-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  -o-transform: rotate(315deg);
 }
 @keyframes reactor-anim {
   from {
     transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
   }
 }
